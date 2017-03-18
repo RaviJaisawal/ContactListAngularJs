@@ -53,4 +53,8 @@ $scope.removeContact = function(id){
         $http.delete('/contactList/'+id).then(function(response){console.log(response);refesh(); },
             function(response){console.log(response); refesh();});
     }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 1485e0fd60f4b2023df02bc9b1c8f09b2aedadf5
